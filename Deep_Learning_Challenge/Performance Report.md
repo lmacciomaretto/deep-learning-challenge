@@ -59,6 +59,7 @@ Compiling, Training, and Evaluating the Model
 
 
 > **Second Attempt:**
+> 
 *The second model incorporated additional preprocessing steps introduced in the first attempt, such as binning "ASK_AMT" and reintroducing the "NAME" column.
 *Architecture remained the same as the first attempt.
 > Accuracy improved, reaching 74.80% after training, but decreased to 74.53% on test data.
