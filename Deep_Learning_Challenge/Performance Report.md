@@ -54,7 +54,7 @@ Compiling, Training, and Evaluating the Model
 * 1 Hidden Layer with 5 neurons (all using ReLU activation)
 * Output Layer with 1 neuron (sigmoid activation).
 > Initial accuracy after compiling, fitting, and training with 100 epochs was approximately 73.13%, dropping to 72.42% on test data evaluation.
-
+>
 ![First_NN_result](https://github.com/lmacciomaretto/deep-learning-challenge/assets/126762600/4cbedb54-da1a-429d-b862-99fe4b9299ea)
 
 
@@ -62,7 +62,7 @@ Compiling, Training, and Evaluating the Model
 *The second model incorporated additional preprocessing steps introduced in the first attempt, such as binning "ASK_AMT" and reintroducing the "NAME" column.
 *Architecture remained the same as the first attempt.
 > Accuracy improved, reaching 74.80% after training, but decreased to 74.53% on test data.
-
+>
 ![Second_NN_result](https://github.com/lmacciomaretto/deep-learning-challenge/assets/126762600/2b643c02-0109-489d-a154-d00501d5790f)
 
 
@@ -70,21 +70,24 @@ Compiling, Training, and Evaluating the Model
 
 The third model retained the preprocessing enhancements of the second attempt and introduced a more complex neural network architecture.
 
-Neural Network Architecture:
-Activation Layer with 10 neurons, 2 Hidden Layers with 10 neurons each (all using ReLU activation), and an Output Layer with 1 neuron (sigmoid activation).
-Accuracy surpassed 75.27% after training, with only a slight improvement to 74.60% on test data.
+> Neural Network Architecture:
+* Activation Layer with 10 neurons, 2 Hidden Layers with 10 neurons each (all using ReLU activation), and an Output Layer with 1 neuron (sigmoid activation).
+> Accuracy surpassed 75.27% after training, with only a slight improvement to 74.60% on test data.
+>
 ![Third_NN_result](https://github.com/lmacciomaretto/deep-learning-challenge/assets/126762600/144f09c4-2171-4392-9acb-acc8b57bec1e)
 ![ThirdNN_Accuracy_Loss](https://github.com/lmacciomaretto/deep-learning-challenge/assets/126762600/c5be6906-45b8-432e-a9a4-2eeeede34a92)
 
 > **Final Attempt - Keras-Tuner Experimentation:**
-A Keras-Tuner was employed to identify an optimal model architecture. 
-The final model configuration included:
+
+> A Keras-Tuner was employed to identify an optimal model architecture. 
+> The final model configuration included:
 * Activation Layer with 9 neurons (ReLU activation)
 * 4 Hidden Layers with 1, 9, 3, and 7 neurons, respectively (all using ReLU activation)
 * Output Layer with 1 neuron (sigmoid activation)
-Accuracy was 73.94% after training, with the test data having 73.72%.
+> Accuracy was 73.94% after training, with the test data having 73.72%.
+>
+![Final_NN_result](https://github.com/lmacciomaretto/deep-learning-challenge/assets/126762600/8cebdb0c-c285-4639-8eac-a3250ff91c59)
 
-![Uploading Final_NN_result.png…]()
 ![Final_Accuracy_Loss](https://github.com/lmacciomaretto/deep-learning-challenge/assets/126762600/d1cc8b13-57de-48fa-b390-e058955fca0f)
 
 **Summary:**
